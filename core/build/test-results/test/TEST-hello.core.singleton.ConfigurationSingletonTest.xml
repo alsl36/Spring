@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.singleton.ConfigurationSingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-01T14:35:57.434Z" hostname="codespaces-2ad339" time="0.018">
+  <properties/>
+  <testcase name="configurationTest()" classname="hello.core.singleton.ConfigurationSingletonTest" time="0.015"/>
+  <system-out><![CDATA[call AppConfig.memberService
+call AppConfig.memberRepository
+call AppConfig.orderService
+memberService: hello.core.member.MemoryMemberRepository@60b1ff3b
+orderService: hello.core.member.MemoryMemberRepository@60b1ff3b
+memberRepository: hello.core.member.MemoryMemberRepository@60b1ff3b
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

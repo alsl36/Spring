@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.CoreApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-01T14:35:54.297Z" hostname="codespaces-2ad339" time="2.802">
+  <properties/>
+  <testcase name="contextLoads()" classname="hello.core.CoreApplicationTests" time="0.821"/>
+  <system-out><![CDATA[14:35:54.515 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.core.CoreApplicationTests]: CoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:35:54.647 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.core.CoreApplication for test class hello.core.CoreApplicationTests
+14:35:54.743 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.core.CoreApplicationTests]: CoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:35:54.746 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.core.CoreApplication for test class hello.core.CoreApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-01T14:35:55.296Z  INFO 20719 --- [core] [    Test worker] hello.core.CoreApplicationTests          : Starting CoreApplicationTests using Java 17.0.10 with PID 20719 (started by codespace in /workspaces/Spring/core)
+2026-10-01T14:35:55.300Z  INFO 20719 --- [core] [    Test worker] hello.core.CoreApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+call AppConfig.memberRepository
+call AppConfig.memberService
+call AppConfig.orderService
+2026-10-01T14:35:56.264Z  INFO 20719 --- [core] [    Test worker] hello.core.CoreApplicationTests          : Started CoreApplicationTests in 1.435 seconds (process running for 3.498)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
